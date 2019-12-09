@@ -1,0 +1,166 @@
+#introduction {
+	padding-top: 50px;
+	height: 650px;
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.2)), to(rgba(255,255,255,0.2))), url('../images/computer-code-editor.jpg');
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.2), rgba(255,255,255,0.2)), url('../images/computer-code-editor.jpg');
+	background: -o-linear-gradient(top, rgba(255,255,255,0.2), rgba(255,255,255,0.2)), url('../images/computer-code-editor.jpg');
+	background: linear-gradient(to bottom, rgba(255,255,255,0.2), rgba(255,255,255,0.2)), url('../images/computer-code-editor.jpg');
+	background-size: cover;
+	background-position: bottom;
+}
+#light-background {
+	display: inline-block;
+	padding: 15px 30px;
+	border-radius: 2px;
+	border-top: 5px solid #f05f40;
+	background: #fff;
+	-webkit-box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
+}
+#name-title {
+	color: #333;
+	font-size: 100px;
+	font-family: 'Yellowtail', cursive;
+}
+#post-title {
+	color: #444;
+	font-size: 30px;
+}
+/* About section styles */
+#about-section {
+	background-color: #f05f40;
+	color: #fff;
+	padding: 50px 0;
+}
+#about-image {
+	height: auto; 
+	width: 200px;
+}
+#about-text {
+	padding: 0 30px;
+	display: flex;
+}
+#about-text p {
+	margin: auto;
+}
+/* Professional Skills section styles */
+#skills-section {
+	background-color: #333;
+	color: #fff;
+	padding: 50px;
+}
+#skills-list {
+	margin-top: 50px;
+	padding: 20px 20px 10px 20px;
+	color: #333;
+  	background-color: #fff;
+  	border-radius: 2px;
+	border-top: 5px solid #f05f40;
+	-webkit-box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
+	        box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
+}
+.rounded-list {
+	padding: 0;
+}
+.rounded-list li {
+	position: relative;
+	background-color: #eee;
+	padding: 8px 8px 8px 32px;
+	margin: 10px 0;
+	border-radius: 2px;
+	list-style-type: none;
+	transition: background-color .3s ease;
+	box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.3);
+}
+.rounded-list li:hover {
+	background-color: #f05f40;
+	color: #fff;
+}
+.rounded-list li:before {
+	content: "\f105";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+  	position: absolute; 
+  	top: -2px;
+  	left: -10px;
+  	background: #f05f40;
+  	border: 5px solid #fff;
+  	border-radius: 32px;
+  	line-height: 23px;
+  	height: 32px;
+    width: 32px;
+    text-align: center;
+    color: #fff;
+    -webkit-box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
+	        box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
+}
+.skills-list-title {
+	padding-bottom: 10px;
+	font-size: 25px;
+	font-weight: bold;
+}
+#skills-charts {
+	padding-left: 50px;
+}
+.skills-chart{
+	padding: 20px 20px 20px 10px;
+	margin-top: 50px;
+	border-radius: 2px;
+	border-top: 5px solid #f05f40;
+  	background-color: #fff;
+  	color: #333;
+}
+.skills-chart p{
+	margin-bottom: 3px;
+}
+.bar{
+  	height: 25px;
+  	margin: 0 auto 10px auto;
+  	background-color: #ddd;
+	box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.3);
+}
+.bar-inner{
+	position: relative;
+	height: 100%;
+	width: 90%;
+  	background-color: #f05f40;
+  	border-radius: 2px;
+  	/*transition: 0.7s;*/
+  	/*-webkit-animation: bar-before 1 1.8s;*/
+}
+.bar-inner::after{
+	position: absolute;
+	right: 5px;
+	content: attr(data-percent);
+	line-height: 25px;
+	color: #fff;
+	font-weight: 700;
+}
+.bar-80 {
+	width: 80%;
+}
+.bar-75 {
+	width: 75%;
+}
+.bar-65 {
+	width: 65%;
+}
+.bar-60 {
+	width: 60%;
+}
+.bar-55 {
+	width: 55%;
+}
+.bar-50 {
+	width: 50%;
+}
+.bar-30 {
+	width: 30%;
+}
+.bar-20 {
+	width: 20%;
+}
+/*@-webkit-keyframes bar-before{
+  	0%{width: 0px;}
+  	100%{width: 100%;}
+}*/
