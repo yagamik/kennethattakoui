@@ -25,7 +25,7 @@
 }
 /* About section styles */
 #about-section {
-	background-color: #f05f40;
+	background-color: #000000;
 	color: #fff;
 	padding: 50px 0;
 }
@@ -42,7 +42,7 @@
 }
 /* Professional Skills section styles */
 #skills-section {
-	background-color: #333;
+	background-color: #000000;
 	color: #fff;
 	padding: 50px;
 }
@@ -52,7 +52,7 @@
 	color: #333;
   	background-color: #fff;
   	border-radius: 2px;
-	border-top: 5px solid #f05f40;
+	border-top: 5px solid #3398db;
 	-webkit-box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
 	        box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
 }
@@ -70,7 +70,7 @@
 	box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.3);
 }
 .rounded-list li:hover {
-	background-color: #f05f40;
+	background-color: #3398db;
 	color: #fff;
 }
 .rounded-list li:before {
@@ -80,7 +80,7 @@
   	position: absolute; 
   	top: -2px;
   	left: -10px;
-  	background: #f05f40;
+  	background: #3398db;
   	border: 5px solid #fff;
   	border-radius: 32px;
   	line-height: 23px;
@@ -103,9 +103,9 @@
 	padding: 20px 20px 20px 10px;
 	margin-top: 50px;
 	border-radius: 2px;
-	border-top: 5px solid #f05f40;
+	border-top: 5px solid #3398db;
   	background-color: #fff;
-  	color: #333;
+  	color: #000000;
 }
 .skills-chart p{
 	margin-bottom: 3px;
@@ -120,7 +120,7 @@
 	position: relative;
 	height: 100%;
 	width: 90%;
-  	background-color: #f05f40;
+  	background-color: #3398db;
   	border-radius: 2px;
   	/*transition: 0.7s;*/
   	/*-webkit-animation: bar-before 1 1.8s;*/
@@ -163,7 +163,8 @@
 }*/
 /* Formations section styles */
 #formations-section {
-	background-color: #ddd;
+	background-color: #000000;
+	color: #fff;
 	padding-top: 50px;
 }
 .section-title {
@@ -179,7 +180,7 @@
 }
 .dark-ribbon {
 	display: inline-block;
-	border: 12px solid #333;
+	border: 12px solid #3398db;
 	border-radius: 2px;
  	width: 40px;
 }
@@ -251,7 +252,7 @@
   	width: calc(50% - 60px);
   	float: left;
  	background: #fff;
-  	border-top: 5px solid #f05f40;
+  	border-top: 5px solid #3398db;
   	padding: 15px;
   	position: relative;
   	border-radius: 2px;
@@ -323,11 +324,11 @@
 	        box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
 }
 .timeline li .tl-circ-current {
-	border-color: #f05f40;
+	border-color: #3398db;
 }
 /* Portfolio section styles */
 #portfolio-section {
-	background-color: #f05f40;
+	background-color: #000000;
 	color: #fff;
 	padding-top: 50px;
 	padding-bottom: 20px;
@@ -377,7 +378,7 @@
 }
 .visit-button {
 	padding: 10px;
-	background-color: #f05f40;
+	background-color: #3398db;
 	border-radius: 3px;
 	color: #fff;
 }
@@ -421,7 +422,7 @@
 }
 .tag {
 	padding: 5px;
-	background-color: #f05f40;
+	background-color: #3398db;
 	border-radius: 5px;
 }
 .github-link {
@@ -435,18 +436,14 @@
 }
 /* Contact section styles */
 #contact-section {
-	background-color: #333;
+	background-color: #000000;
 	color: #fff;
 	padding: 50px 40px 50px 40px;
 }
 #contact-title {
 	padding-bottom: 50px;
 }
-#map {
-	height: 350px;
-	margin-top: 25px;
-	margin-bottom: 30px;
-}
+/*
 #route-indications {
 	background-color: #f05f40;
 	width: 100%;
@@ -462,6 +459,7 @@
 	font-weight: bold;
 	border-radius: 3px;
 }
+*/
 .footer-icon {
 	color: #aaa;
 	font-size: 30px;
