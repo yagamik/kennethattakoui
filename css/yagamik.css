@@ -405,10 +405,8 @@
 	content: " ";
     position: absolute;
     border-bottom: 1px solid #ddd;
-	/*
 	width: 25%;   
 	height: 13px;
-	*/
     display: inline;
     margin-left: calc(-25% - 8px);
 }
@@ -416,10 +414,8 @@
 	content: " ";
     position: absolute;
     border-bottom: 1px solid #ddd;
-	/*
 	width: 25%;   
 	height: 13px;
-	*/
     display: inline;
     margin-left: 8px;
 }
