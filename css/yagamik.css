@@ -1,12 +1,7 @@
 #introduction {
 	padding-top: 50px;
 	height: 650px;
-	/*
-	background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.2)), to(rgba(255,255,255,0.2))), url('../images/computer-code-editor.jpg');
-	background: -webkit-linear-gradient(top, rgba(255,255,255,0.2), rgba(255,255,255,0.2)), url('../images/computer-code-editor.jpg');
-	background: -o-linear-gradient(top, rgba(255,255,255,0.2), rgba(255,255,255,0.2)), url('../images/computer-code-editor.jpg');
-	background: linear-gradient(to bottom, rgba(255,255,255,0.2), rgba(255,255,255,0.2)), url('../images/computer-code-editor.jpg');
-	*/
+	background: #000000;
 	background-size: cover;
 	background-position: bottom;
 }
