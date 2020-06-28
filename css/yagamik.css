@@ -20,7 +20,8 @@
 	font-family: 'Yellowtail', cursive;
 }
 #post-title {
-	color: #444;
+	color: #3398db;
+	font-weight: bold;
 	font-size: 30px;
 }
 /* About section styles */
@@ -167,6 +168,13 @@
 	color: #000000;
 	padding-top: 50px;
 }
+
+#experiences-section {
+	background-color: #000000;
+	color: #000000;
+	padding-top: 50px;
+}
+
 .section-title {
 	color: #fff;
 	font-size: 50px;
