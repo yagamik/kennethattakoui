@@ -120,7 +120,7 @@
 .bar-inner{
 	position: relative;
 	height: 100%;
-	width: 90%;
+	width: 100%;
   	background-color: #3398db;
   	border-radius: 2px;
   	/*transition: 0.7s;*/
